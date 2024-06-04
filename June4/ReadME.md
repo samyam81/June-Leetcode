@@ -8,11 +8,11 @@ The code begins by creating a HashMap to store the frequency of each character i
 
 ## Complexity
 - Time complexity:
-  - The code iterates through the input string once to populate the HashMap, which takes $$O(n)$$ time, where $$n$$ is the length of the input string.
-  - It then iterates through the keys of the HashMap, which takes $$O(m)$$ time, where $$m$$ is the number of unique characters in the input string.
-  - Thus, the overall time complexity is $$O(n + m)$$.
+  - The code iterates through the input string once to populate the HashMap, which takes O(n) time, where n is the length of the input string.
+  - It then iterates through the keys of the HashMap, which takes O(m) time, where m is the number of unique characters in the input string.
+  - Thus, the overall time complexity is O(n + m).
 
 - Space complexity:
-  - The code utilizes a HashMap to store the frequency of characters, which requires space proportional to the number of unique characters in the input string, i.e., $$O(m)$$.
+  - The code utilizes a HashMap to store the frequency of characters, which requires space proportional to the number of unique characters in the input string, i.e., O(m).
   - Additionally, it uses a few variables for bookkeeping, which require constant space.
-  - Therefore, the overall space complexity is $$O(m)$$, where $$m$$ is the number of unique characters in the input string.
+  - Therefore, the overall space complexity is O(m), where m is the number of unique characters in the input string.
