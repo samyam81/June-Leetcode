@@ -12,5 +12,5 @@ To find the characters that appear in all strings within the input array, we can
 6. Construct the result array based on the characters that appear in all words.
 
 ## Complexity
-- Time complexity: $$O(n \cdot m)$$, where $$n$$ is the number of words in the input array and $$m$$ is the maximum length of a word. We iterate through each character in each word.
-- Space complexity: $$O(k)$$, where $$k$$ is the number of unique characters that appear in all words. We store the character counts in the hashmap.
+- Time complexity: O(n * m), where n is the number of words in the input array and m is the maximum length of a word. We iterate through each character in each word.
+- Space complexity: O(k), where k is the number of unique characters that appear in all words. We store the character counts in the hashmap.
