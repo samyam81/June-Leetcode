@@ -1,9 +1,9 @@
 # Magnetic Force Between Two Balls : June 20
 
-### Intuition
+# Intuition
 The problem aims to determine the maximum possible minimum distance (`d`) such that `m` cows can be positioned in a sorted array `position` with at least `d` distance apart from each other.
 
-### Approach
+# Approach
 1. **Sorting**: Begin by sorting the `position` array, allowing straightforward calculation of distances between positions.
 
 2. **Binary Search**: Utilize binary search to efficiently pinpoint the maximum distance `d`:
@@ -21,7 +21,7 @@ The problem aims to determine the maximum possible minimum distance (`d`) such t
      - Continue until all `m` cows are positioned or it becomes impractical to place them with the given distance.
    - Return true if it's possible to position all `m` cows with at least `dist` distance apart; otherwise, return false.
 
-### Complexity
+# Complexity
 - **Time complexity**: 
   - Sorting the `position` array takes \(O(n \log n)\).
   - Each binary search iteration involves evaluating feasibility using `CanWePlace`, which operates in \(O(n)\) time.
